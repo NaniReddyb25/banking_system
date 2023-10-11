@@ -1,7 +1,7 @@
 
 # This is Account Class to store account holders details
 class Accounts:
-    # This is a default constructor which gets triggered when called
+    # this is a default constructor which gets triggered when called
     # This takes in the following arguments and saves them init.
     def __init__(self,name,gender,aadhar,pan,dob,phone,address,accountNo,ifscCode,accountType,password,balance):
         self.name=name
